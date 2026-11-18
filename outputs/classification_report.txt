@@ -1,0 +1,67 @@
+ENSEMBLE LEARNING - CLASSIFICATION REPORTS
+Dataset: Breast Cancer Wisconsin (Diagnostic)
+Train/test split: 80% / 20%; random_state=42
+
+=================================================================
+Random Forest
+=================================================================
+              precision    recall  f1-score   support
+
+   malignant       0.95      0.93      0.94        42
+      benign       0.96      0.97      0.97        72
+
+    accuracy                           0.96       114
+   macro avg       0.96      0.95      0.95       114
+weighted avg       0.96      0.96      0.96       114
+
+
+=================================================================
+Bagging
+=================================================================
+              precision    recall  f1-score   support
+
+   malignant       0.93      0.90      0.92        42
+      benign       0.95      0.96      0.95        72
+
+    accuracy                           0.94       114
+   macro avg       0.94      0.93      0.93       114
+weighted avg       0.94      0.94      0.94       114
+
+
+=================================================================
+AdaBoost
+=================================================================
+              precision    recall  f1-score   support
+
+   malignant       0.97      0.90      0.94        42
+      benign       0.95      0.99      0.97        72
+
+    accuracy                           0.96       114
+   macro avg       0.96      0.95      0.95       114
+weighted avg       0.96      0.96      0.96       114
+
+
+=================================================================
+Gradient Boosting
+=================================================================
+              precision    recall  f1-score   support
+
+   malignant       0.97      0.90      0.94        42
+      benign       0.95      0.99      0.97        72
+
+    accuracy                           0.96       114
+   macro avg       0.96      0.95      0.95       114
+weighted avg       0.96      0.96      0.96       114
+
+
+=================================================================
+Voting Classifier
+=================================================================
+              precision    recall  f1-score   support
+
+   malignant       0.97      0.90      0.94        42
+      benign       0.95      0.99      0.97        72
+
+    accuracy                           0.96       114
+   macro avg       0.96      0.95      0.95       114
+weighted avg       0.96      0.96      0.96       114
